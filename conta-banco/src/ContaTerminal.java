@@ -9,16 +9,16 @@ public class ContaTerminal {
         int numero;
         double saldo;
 
-        System.out.println("Por favor, informe o seu nome");
+        System.out.println("Por favor, informe o seu nome!");
         nome = sc.nextLine();
 
-        System.out.println("Por favor, informe o número da agencia");
+        System.out.println("Por favor, digite o número da agencia!");
         agencia = sc.next();
 
-        System.out.println("Por favor, informe o número da conta");
+        System.out.println("Por favor, digite o número da conta!");
         numero = sc.nextInt();
 
-        System.out.println("Por favor, informe o seu saldo");
+        System.out.println("Por favor, informe o seu saldo!");
         saldo = sc.nextDouble();
 
         System.out.println("Olá " + nome + ", obrigado por criar uma conta em nosso banco, sua agencia é " + agencia + ", conta " + numero + " e seu saldo " + saldo + " já está disponível para saque!");
